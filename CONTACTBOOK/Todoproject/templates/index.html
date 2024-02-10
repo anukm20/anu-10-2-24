@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div>
+  <h1 class="head" style="color: rgb(0, 0, 0);">PHONE</h1>
+</div>
+<div class="container mt-5 mb-5 cont" style="background-color: black;">
+  <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+    <div class="card-group">
+      <div class="crd">
+        <div class="row">
+          {% for i in contacts %}
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mt-2 mb-2">
+              <img class="im mt-4" src="../static/images/nayagra water falls.jpeg" width="50px" height="50px"
+                class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="card-body col-lg-6 col-md-6 col-sm-12">
+              <h3>{{i.name}}</h3>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container d-flex mb-5 plus">
+  <a href="{% url 'newcontact' %}">
+    <img src="../static/images/plus.jpg" width="40px" height="40px" alt="">
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="card mb-3 mt-4" style="max-width: 440px;">
+            <div class="row g-0">
+              <div class="col-md-4 mt-3">
+                <img src="../static/images/nayagra water falls.jpeg" width="65px" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body ps-1">
+               <h3>anurag</h3>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                </div> -->
+
+{% endblock %}

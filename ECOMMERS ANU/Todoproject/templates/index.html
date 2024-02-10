@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<nav class="navbar navbar-expand-lg fixed-top bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item">
+          <a class="me-3 nav-link active" style="color: white;" aria-current="page" href="{% url 'home' %}">Home</a>
+        </li>
+        <div class="dropdown ">
+          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Catagory
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            
+            {% for i in cat %}
+            <li><a class="dropdown-item" href="{% url 'smart' i %}">{{i}}</a></li>
+            {% endfor %}
+          </ul>
+          {% if user.is_authenticated %}
+          <span>{{user}}</span>
+          <a href="{% url 'auth:logout' %}" class="btn btn-danger me-2" type="submit">logout</a>
+          {% else %}
+          <a href="{% url 'auth:register' %}" class=" btn btn-light ms-5 me-2" type="submit">sign</a>
+          <a href="{% url 'auth:loginuser' %}" class="btn btn-light me-2" type="submit">login</a>
+          {% endif %}
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container-fluid bg-secondary d-flex mb-3 mt-5 flex-wrap justify-content-center">
+  {% for i in data.products %}
+  <div class="crd card crd rounded-4 ms-4 me-4 mb-5 mt-4" style="width: 18rem;">
+    <a href="{% url 'details' i.id %}">
+    <img src="{{i.thumbnail}}" class="card-img-top rounded-3" alt="..."></a>
+    <div class="card-body">
+      <h3>{{i.title}}</h3>
+      <h4 class="pt-2">${{i.price}}</h4>
+    </div>
+   
+  </div>
+  {% endfor %}
+
+
+</div>
+{% endblock %}

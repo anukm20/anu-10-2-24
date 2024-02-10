@@ -1,0 +1,191 @@
+.one{
+    font-family: inter,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 3.75rem;
+}
+.one span{
+    color: rgb(169 121 43);
+}
+
+.title{
+    margin-left: 200px;
+}
+
+.oFd{
+    margin-left: 430px;
+}
+.one{
+    background-color: rgb(246, 246, 246);
+}
+.one h1{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 820;
+    padding-top: 50px;
+    padding-right: 50px;
+    
+
+}
+.one h5{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+    padding-left: 500px;
+    padding-right: 580px;
+    padding-left: 605px;
+}
+.one h2{
+    margin-left: 850px;
+    font-weight: 500;
+    padding: 16px 45px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.two{
+    background-color: rgb(241, 241, 241);
+}
+.two h1{
+    text-align: center;
+    font-size: 1.6rem;
+    padding-top: 50px;
+}
+.two h2{
+    text-align: center;
+    font-size: 1.3rem;
+    padding-right: 530px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.two h3{
+    font-size: 1.1rem;
+    font-weight: 368;
+    padding-left: 533px;
+    padding-right: 500px;
+    padding-bottom: 35px;
+}
+.two h4{
+    font-size: 1.3rem;
+    padding-right: 500px;
+    padding-left: 530px;
+    padding-bottom: 20px;
+}
+.two h5{
+    padding-left: 527px;
+    font-size: 1.1rem;
+    font-weight: 369;
+
+}
+.three h1{
+    font-size: 1.3rem;
+    padding-right: 510px;
+    padding-bottom: 0px;
+}
+.three h2{
+    padding-bottom:25px;
+    padding-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 369;
+    padding-left: 518px;
+    padding-right: 510px;
+    text-align: center;
+}
+.three h3{
+    font-size: 1.3rem;
+    padding-left: 520px;
+    font-weight: 549;
+    padding-bottom: 0px;
+}
+.three h4{
+    font-size: 1.1rem;
+    font-weight: 369;
+    padding-left: 518px;
+    padding-top: 10px;
+}
+.three h5{
+    font-size: 1.3rem;
+    padding-left: 517px;
+    font-weight: 549;
+    padding-bottom: 10px;
+}
+.three h6{
+    font-size: 1.1rem;
+    font-weight: 369;
+    padding-left: 515px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.four h1{
+    font-size: 1.3rem;
+    padding-left: 0px;
+    font-weight: 549;
+    padding-bottom: 10px;
+}
+.five h1{
+    padding-left: 258px;
+}
+
+.five h2{
+    padding-left: 505px;
+}
+.six h1{
+    padding-left: 88px;
+}
+.six h2{
+    padding-left: 503px;
+    padding-right: 520px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.final{
+    margin: 0px 400px;
+    margin-bottom: 100px;
+}
+.final h1{
+    font-size: 1.2rem;
+}
+.twit{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+}
+.fb{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+
+}
+.gith{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+}
+.disc{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+}
+.wm{
+    font-size: .75rem;
+    color: rgb(975 85 99);
+    padding-left: 400px;
+    margin-bottom: 50px;
+}

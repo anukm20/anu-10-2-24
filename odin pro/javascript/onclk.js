@@ -1,0 +1,3 @@
+function anar(){
+    alert('halo')
+}

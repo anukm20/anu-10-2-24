@@ -1,0 +1,13 @@
+from tkinter import *
+root=Tk()
+l1=Label(root,text="username")
+e1=Entry(root)
+l2=Label(root,text="password")
+e2=Entry(root)
+bt=Button(root,text="login")
+l1.grid(row=0,column=0)
+e1.grid(row=0,column=1)
+l2.grid(row=1,column=0)
+e2.grid(row=1,column=1)
+bt.grid(row=2,column=1)
+root.mainloop()

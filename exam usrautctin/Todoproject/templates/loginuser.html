@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+    <form class="border mt-5 mb-2" method="post" action="" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input class="form-control mb-2" type="text" name="username" placeholder="username">
+
+        <input class="form-control mb-2" type="textr" name="password" placeholder="password">
+        <input type="submit">
+    </form>
+</div>
+
+
+
+{% endblock %}

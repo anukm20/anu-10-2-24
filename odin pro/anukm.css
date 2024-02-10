@@ -1,0 +1,22 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: aqua;
+}
+.box{
+    height:50%;
+    width:100%;
+    background-color: blue;
+}
+.inner-box {
+    display:inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(239, 45, 45);
+    border: 1px solid black;
+}
+ .inner-box:first-child{
+    background-color: yellow;
+ }

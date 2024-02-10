@@ -1,0 +1,215 @@
+.tp{
+    text-align: center;
+    font-size: 2rem;
+}
+.title{
+    margin-left: 200px;
+}
+
+.oFd{
+    margin-left: 520px;
+}
+.one{
+    background-color: whitesmoke;
+}
+.one h1{
+    padding-top: 70px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.one h4{
+    padding-bottom: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+
+
+.two{
+    background-color: rgba(255, 255, 255, 0.99);
+    width: 28%;
+    height: 80%;
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    padding-bottom: 3%;
+     
+    
+}
+.zz h1{
+    font-size: 1.8rem;
+
+    
+  
+    
+
+}
+.cc {
+   
+    text-align: end;
+    
+    
+}
+
+
+
+.mb{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+.form-label h1{
+    font-size: .9rem;
+    padding-bottom: 1%;
+    padding-top: 30%;
+}
+.mbb{
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-color: rgba(190, 175, 175, 0.781);
+}
+
+.sig h6{
+    font-size: .8rem;
+    font-weight: 300;
+    margin-top: 3%;
+    padding-left: 20%;
+}
+
+
+.jj .btn{
+    background-color: rgb(63, 141, 103);
+    color: white;
+    margin-top: 20px;
+    font-size: 1rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 800px;
+    padding-left: 110px;
+    padding-right: 110px;
+
+ 
+}
+.jj{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.xx{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.xx hr{
+    width: 30%;
+}
+.xx h5{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.la .btn{
+    margin-left: 10px;
+    margin-top: 10%;
+    width: 40%;
+}
+.la img{
+    width: 20%;
+}
+.la{
+    display: flex;
+    justify-content:center ;
+}
+.tts{
+    display: flex;
+    justify-content: center;
+}
+.tts h1{
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sprt{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.opf{
+    text-align: center;
+    font-size: .955rem;
+    color: rgb(107 114 128);
+}
+
+
+
+
+
+.thelast{
+    padding-bottom: 80px;
+}
+.thelast .btn{
+    width: 120px;
+}
+.adc{
+    padding-right: 0px;
+}
+.adc .btn{
+    padding: 10px;
+}
+.abc{
+    padding-left: 650px;
+}
+.abc .btn{
+    margin-left: 900px;
+    padding:10px;
+    margin-left: 795px;
+}
+.final h1{
+    font-size: 1.2rem;
+}
+.twit{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+}
+.fb{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+
+}
+.gith{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+}
+.disc{
+    display: inline;
+    width: 3.5rem;
+    padding-left: 1.5rem;
+}
+.wm{
+    font-size: .75rem;
+    color: rgb(975 85 99);
+    padding-left: 400px;
+    margin-bottom: 50px;
+}
